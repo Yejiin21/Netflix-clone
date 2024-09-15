@@ -100,10 +100,10 @@ function Home() {
         <>
           <Banner
             onClick={increaseIndex}
-            bgPhoto={makeImagePath(data?.results[9].backdrop_path || "")}
+            bgPhoto={makeImagePath(data?.results[14].backdrop_path || "")}
           >
-            <Title>{data?.results[9].title}</Title>
-            <Overview>{data?.results[9].overview}</Overview>
+            <Title>{data?.results[14].title}</Title>
+            <Overview>{data?.results[14].overview}</Overview>
           </Banner>
           <Slider>
             <AnimatePresence initial={false} onExitComplete={toggleLeaving}>
